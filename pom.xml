@@ -224,20 +224,20 @@
             <build>
                 <plugins>
                     <!-- CHECKSTYLE -->
-                    <!--<plugin>-->
-                        <!--<artifactId>maven-checkstyle-plugin</artifactId>-->
-                        <!--<version>2.9.1</version>-->
-                        <!--<dependencies>-->
-                            <!--<dependency>-->
-                                <!--<groupId>com.wakaleo.gameoflife</groupId>-->
-                                <!--<artifactId>gameoflife-build</artifactId>-->
-                                <!--<version>${project.version}</version>-->
-                            <!--</dependency>-->
-                        <!--</dependencies>-->
-                        <!--<configuration>-->
-                            <!--<configLocation>custom-checkstyle.xml</configLocation>-->
-                        <!--</configuration>-->
-                    <!--</plugin>-->
+                    <plugin>
+                        <artifactid>maven-checkstyle-plugin</artifactid>
+                        <version>2.9.1</version>
+                        <dependencies>
+                            <dependency>
+                                <groupid>com.wakaleo.gameoflife</groupid>
+                                <artifactid>gameoflife-build</artifactid>
+                                <version>${project.version}</version>
+                            </dependency>
+                        </dependencies>
+                        <configuration>
+                            <configlocation>custom-checkstyle.xml</configlocation>
+                        </configuration>
+                    </plugin>
 
                     <!-- PMD -->
                     <plugin>
